@@ -13,7 +13,6 @@ $(function() {
     var form = layui.form
 
     //通过form.veryfy()来自定义校验规则
-
     form.verify({
         pwd:[
             /^[\S]{6,12}$/
